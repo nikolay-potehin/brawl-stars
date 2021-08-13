@@ -1,0 +1,6 @@
+.header__logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 20px;
+    background-size: contain;
+}

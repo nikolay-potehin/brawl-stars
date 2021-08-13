@@ -1,0 +1,17 @@
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: 60px 100px 0 0;
+  padding-top: 30px;
+  border-radius: 10%;
+  /*background-color: #238ff4;*/
+}
+
+.cards__item:nth-of-type(3) {
+  margin-right: 0;
+}
+
+.cards__item:nth-of-type(6) {
+  margin-right: 0;
+}
