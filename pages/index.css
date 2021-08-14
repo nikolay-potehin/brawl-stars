@@ -8,13 +8,29 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
-@import url(../blocks/players/players.css);
+@import url(../blocks/gradient/gradient.css);
+@import url(../blocks/gradient/__from-to_common_rare/gradient__from-to_common_rare.css);
+@import url(../blocks/gradient/__from-to_common_rare/gradient__from-to_rare_super-rare.css);
+
+@import url(../blocks/common-brawlers/common-brawlers.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__description/cards__description.css);
+
+@import url(../blocks/rare-brawlers/rare-brawlers.css);
+
+@import url(../blocks/super-rare-brawlers/super-rare-brawlers.css);
+
+@import url(../blocks/epic-brawlers/epic-brawlers.css);
+
+@import url(../blocks/mythic-brawlers/mythic-brawlers.css);
+
+@import url(../blocks/legendary-brawlers/legendary-brawlers.css);
+
+@import url(../blocks/chromatic-brawlers/chromatic-brawlers.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);

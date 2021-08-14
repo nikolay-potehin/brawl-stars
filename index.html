@@ -1,78 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>brawl stars - unofficial</title>
-    <link rel="stylesheet" href="./pages/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>brawl stars - unofficial</title>
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body class="page">
-    <header class="header">
-        <img class="header__logo" src="images/logo.jpg" alt="лого Brawl Stars">
-    </header>
+  <header class="header">
+    <img class="header__logo" src="images/logo.jpg" alt="лого Brawl Stars">
+  </header>
 
-    <main>
-        <section class="players">
-            <h2 class="section-title">List of all characters</h2>
-            <ul class="cards">
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/shelly.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Shelly</h3>
-                    <p class="cards__description">Shelly's spread-fire shotgun blasts the other team with buckshot. Her Super destroys cover and keeps her opponents at a distance!</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/nita.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Nita</h3>
-                    <p class="cards__description">Nita strikes her enemies with a thunderous shockwave. Her Super summons a massive bear to fight by her side!</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/colt.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Colt</h3>
-                    <p class="cards__description">Colt fires an accurate burst of bullets from his dual revolvers. His Super shreds cover and extends the bullet barrage!</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/bull.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Bull</h3>
-                    <p class="cards__description">Bull deals massive damage up close with his shotgun. For his Super move, he charges through barriers and knocks back enemies!</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/jessie.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Jessie</h3>
-                    <p class="cards__description">Jessie's Shock Rifle shoots energy orbs that bounce between enemies. Her Super deploys a cute but deadly gun turret!</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/brock.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Brock</h3>
-                    <p class="cards__description">Brock fires a long-range, explosive rocket at enemies. His Super is a ballistic rocket barrage that destroys cover!</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/dynamike.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Dynamike</h3>
-                    <p class="cards__description">Dynamike lobs two explosive sticks of dynamite. His Super attack is a whole barrel full of dynamite that blows up cover!</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/bo.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Bo</h3>
-                    <p class="cards__description">Bo fires three explosive arrows toward his targets. His Super ability places a trio of hidden, explosive mines on the ground!</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/tick.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Tick</h3>
-                    <p class="cards__description">Tick is a metal ball of barely controlled excitement and energy - explosive energy! He throws mines, and his Super makes his head detach, seek a target and explode.</p>
-                </li>
-                <li class="cards__item">
-                    <img class="cards__image" src="./images/emz.png" alt="персонаж Шелли">
-                    <h3 class="cards__title">Emz</h3>
-                    <p class="cards__description">Emz attacks with blasts of hair spray that deal damage over time, and slows down opponents with her Super.</p>
-                </li>
-            </ul>
-        </section>
-    </main>
+  <main>
+    <section class="common-brawlers">
+      <h2 class="section-title" id="common-brawlers__title">Common Brawlers</h2>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/shelly.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Shelly</h3>
+          <p class="cards__description">Shelly's spread-fire shotgun blasts the other team with buckshot. Her Super
+            destroys cover and keeps her opponents at a distance!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/nita.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Nita</h3>
+          <p class="cards__description">Nita strikes her enemies with a thunderous shockwave. Her Super summons a
+            massive bear to fight by her side!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/colt.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Colt</h3>
+          <p class="cards__description">Colt fires an accurate burst of bullets from his dual revolvers. His Super
+            shreds cover and extends the bullet barrage!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/bull.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Bull</h3>
+          <p class="cards__description">Bull deals massive damage up close with his shotgun. For his Super move, he
+            charges through barriers and knocks back enemies!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/jessie.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Jessie</h3>
+          <p class="cards__description">Jessie's Shock Rifle shoots energy orbs that bounce between enemies. Her Super
+            deploys a cute but deadly gun turret!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/brock.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Brock</h3>
+          <p class="cards__description">Brock fires a long-range, explosive rocket at enemies. His Super is a ballistic
+            rocket barrage that destroys cover!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/dynamike.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Dynamike</h3>
+          <p class="cards__description">Dynamike lobs two explosive sticks of dynamite. His Super attack is a whole
+            barrel full of dynamite that blows up cover!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/bo.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Bo</h3>
+          <p class="cards__description">Bo fires three explosive arrows toward his targets. His Super ability places a
+            trio of hidden, explosive mines on the ground!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/tick.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Tick</h3>
+          <p class="cards__description">Tick is a metal ball of barely controlled excitement and energy - explosive
+            energy! He throws mines, and his Super makes his head detach, seek a target and explode.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/emz.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Emz</h3>
+          <p class="cards__description">Emz attacks with blasts of hair spray that deal damage over time, and slows down
+            opponents with her Super.</p>
+        </li>
+      </ul>
+    </section>
+    <!--<div class="gradient gradient__from-to_common_rare"></div>-->
+    <section class="rare-brawlers">
+      <h2 class="section-title" id="rare-brawlers__title">Rare Brawlers</h2>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/el-primo.png" alt="персонаж Шелли">
+          <h3 class="cards__title">El Primo</h3>
+          <p class="cards__description">El Primo throws a flurry of punches at his enemies. His Super is a leaping elbow
+            drop that deals damage to all caught underneath!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/barley.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Barley</h3>
+          <p class="cards__description">Barley attacks by lobbing bottles at enemies, doing splash damage. His Super is
+            a huge barrage of burning bottles!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/poco.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Poco</h3>
+          <p class="cards__description">Poco fires damaging sound waves at enemies. His Super can heal both Poco himself
+             and his teammates!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/rosa.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Rosa</h3>
+          <p class="cards__description">This boxing botanist will plant her feet and go toe to toe! Her Super gives her
+            tough, vegan protective gear.</p>
+        </li>
+    </section>
+    <!--<div class="gradient gradient__from-to_rare_super-rare"></div>-->
+    <section class="super-rare-brawlers">
+      <h2 class="section-title" id="super-rare-brawlers__title">Super Rare Brawlers</h2>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/rico.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Rico</h3>
+          <p class="cards__description">Rico fires a burst of bullets that bounce off walls. His Super burst is a long
+            barrage of bouncy bullets that pierce targets!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/darryl.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Darryl</h3>
+          <p class="cards__description">Darryl has a powerful double-shotgun attack. His Super move is a reckless roll
+             inside his bouncy barrel!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/penny.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Penny</h3>
+          <p class="cards__description">Penny shoots bags of coins, damaging the target and anyone standing behind. Her
+             Super is a mortar-style cannon turret!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/carl.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Carl</h3>
+          <p class="cards__description">Carl throws his Pickaxe like a boomerang. His Super is a crazy cart spin that
+            clobbers anyone around him.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/jacky.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Jacky</h3>
+          <p class="cards__description">Jacky works her Jackhammer to shake up the ground and nearby enemies. Her Super
+             pulls in nearby foes, leaving them in the dust!</p>
+        </li>
+    </section>
+    <section class="epic-brawlers">
+      <h2 class="section-title" id="epic-brawlers__title">Epic Brawlers</h2>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/piper.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Piper</h3>
+          <p class="cards__description">Piper's sniper shots do more damage the farther they travel. Her Super drops
+            grenades at her feet, while Piper herself leaps away!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/pam.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Pam</h3>
+          <p class="cards__description">Pam shoots from the hip, peppering targets with shrapnel. Her Super is a healing
+            turret that restores her and teammates' health!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/frank.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Frank</h3>
+          <p class="cards__description">Frank swings his hammer at enemies, sending a shockwave. His Super is an especially
+             powerful blow that stuns enemies!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/bibi.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Bibi</h3>
+          <p class="cards__description">Batter up! Bibi's got a sweet swing that can knock back enemies when her Home Run
+            bar is charged. Her Super is a bouncing ball of gum that deals damage.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/bea.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Bea</h3>
+          <p class="cards__description">Bea loves bugs and hugs. She shoots her mechanical drones at range, and her Super
+            sends forth an angry army of swarming bees!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/nani.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Nani</h3>
+          <p class="cards__description">Nani loves her friends and looks over them with a watchful lens. She handles threats
+             with angled shots, and her Super allows Nani to commandeer her pal Peep, who goes out with a bang!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/edgar.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Edgar</h3>
+          <p class="cards__description">Let's face it, this is an angry kid. He also loves parkour.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/griff.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Griff</h3>
+          <p class="cards__description">Griff is the proprietor of Starr Park's gift shop. Business is bad,
+            but he still throws coins away - from his employees' tip jar!</p>
+        </li>
+    </section>
+    <section class="mythic-brawlers">
+      <h2 class="section-title" id="epic-brawlers__title">Mythic Brawlers</h2>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/mortis.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Mortis</h3>
+          <p class="cards__description">Mortis dashes forward with each swing of his shovel. As his Super attack, he
+            sends a cloud of bats to damage enemies and heal himself!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/tara.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Tara</h3>
+          <p class="cards__description">Tara's triple tarot card attack pierces through enemies. Her Super is a black hole
+             that sucks in all nearby enemies, causing damage!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/gene.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Gene</h3>
+          <p class="cards__description">Gene uses his magic lamp to shoot a splitting projectile. His super is a magical
+             hand that grabs and pulls enemies close!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/max.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Max</h3>
+          <p class="cards__description">Max goes fast! Her attack is a fast-firing blaster. Her Super speeds up her and allies!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/mr-p.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Mr. P</h3>
+          <p class="cards__description">Mr. P is a disgruntled luggage handler who angrily hurls suitcases at opponents.
+            His Super calls robo-porters to help him.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/sprout.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Sprout</h3>
+          <p class="cards__description">Sprout was built to plant life, launching bouncy Seed Bombs with reckless love.
+            Its Super creates a plant-based obstacle!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/byron.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Byron</h3>
+          <p class="cards__description">Byron deals with potent medicaments, but never call him a snake oil salesman!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/squeak.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Squeak</h3>
+          <p class="cards__description">As Col. Ruff's accidental creation, Squeak was born to play fetch!</p>
+        </li>
+    </section>
+    <section class="legendary-brawlers">
+      <h2 class="section-title" id="epic-brawlers__title">Legendary Brawlers</h2>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/spike.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Spike</h3>
+          <p class="cards__description">Spike throws cactus grenades that send needles flying, and a show-stopping
+            Super: a field of cactus spines that slows down and damages enemies!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/crow.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Crow</h3>
+          <p class="cards__description">Crow fires a trio of poisoned daggers. As a Super move he leaps, firing daggers
+             both on jump and on landing!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/leon.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Leon</h3>
+          <p class="cards__description">Leon shoots a quick salvo of blades at his target. His Super trick is a smoke
+            bomb that makes him invisible for a little while!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/sandy.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Sandy</h3>
+          <p class="cards__description">Sandy is a sleep-deprived Brawler with powerful control over sand: casting
+            sharp pebbles at enemies, and summoning a sandstorm to hide teammates.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/amber.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Amber</h3>
+          <p class="cards__description">Amber has always been a firebug. She loves to light up the world and any
+             opponents that come at her!</p>
+        </li>
+    </section>
+    <section class="chromatic-brawlers">
+      <h2 class="section-title" id="epic-brawlers__title">Chromatic Brawlers</h2>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/gale.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Gale</h3>
+          <p class="cards__description">Gale is a tireless handyman who gets no rest. With his blower, he blasts foes
+             with a wide shot of wind and snow, while his Super pushes them back with a forceful blizzard!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/surge.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Surge</h3>
+          <p class="cards__description">He's a Protector with a penchant for parties. Surge attacks foes with energy drink
+             blasts that split in 2 on contact. His Super upgrades his stats in 3 stages and comes complete with totally awesome body mods!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/colette.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Colette</h3>
+          <p class="cards__description">Colette is going to get you! She taxes opponents' health and has fancy moves to boot.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/lou.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Lou</h3>
+          <p class="cards__description">Lou is a cool guy, literally! He can dole out all kinds of chill stuff. But watch your
+            step on the ice, and be careful not to get brain freeze!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/colonel-ruffs.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Colonel Ruffs</h3>
+          <p class="cards__description">Ruffs fires twin shots of lasers that bounce off walls. His Super is a supply drop that
+             can damage enemies in the drop zone and leaves a power up for your team to use.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/belle.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Belle</h3>
+          <p class="cards__description">Belle inspires adoration in her gang, while her Electo-Rifle brings shock and awe to any opponent!</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/buzz.png" alt="персонаж Шелли">
+          <h3 class="cards__title">Buzz</h3>
+          <p class="cards__description">Buzz is the lifeguard at Velocirapids. He constantly scans for folks in trouble he can throw his
+            torpedo buoy to, but his throws are rather overenthusiastic.</p>
+        </li>
+    </section>
+  </main>
 
-    <footer class="footer">
-        <p class="footer__author">&copy;2021. Николай Потехин</p>
-        <a class="footer__column-link" href="https://vk.com/potehin2018" target="_blank"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="vk лого">Вконтакте</a>
-    </footer>
+  <footer class="footer">
+    <p class="footer__author">&copy;2021. Николай Потехин</p>
+    <a class="footer__column-link" href="https://vk.com/potehin2018" target="_blank"><img class="footer__social-icon"
+        src="./images/vk_color_white.svg" alt="vk лого">Вконтакте</a>
+  </footer>
 </body>
+
 </html>
